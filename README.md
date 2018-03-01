@@ -13,20 +13,20 @@ Provided with a string with various indentations, generate a folder-like structu
 ```js
 const test =
   '\
-  page 1\n\
-    page 1.1\n\
-    page 1.2\n\
-      page 1.2.1\n\
-  page 2\n\
-  page 3\n\
-    page 3.1\n\
-    page 3.2\n\
-  page 4\n\
-    page 4.1\n\
-      page 4.1.1\n\
-        page 4.1.1.1\n\
-  page 5\
-  ';
+    page 1\n\
+      page 1.1\n\
+      page 1.2\n\
+        page 1.2.1\n\
+    page 2\n\
+    page 3\n\
+      page 3.1\n\
+      page 3.2\n\
+    page 4\n\
+      page 4.1\n\
+        page 4.1.1\n\
+          page 4.1.1.1\n\
+    page 5\
+    ';
 ```
 
 ### Dependencies
@@ -37,10 +37,10 @@ const test =
 
 ### Commands
 
-```
-  # Development
-yarn dev // or npm run dev
+```bash
+# Development
+yarn dev # or npm run dev
 
 # Production ready bundle
-yarn build // or npm run build
+yarn build # or npm run build
 ```
