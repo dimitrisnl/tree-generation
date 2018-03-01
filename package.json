@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/DimitrisNL/tree-generation/issues"
   },
-  "homepage": "",
+  "homepage": "https://optimistic-euler-fa7555.netlify.com/",
   "dependencies": {
     "emotion": "^9.0.2",
     "react": "^16.2.0",
