@@ -1,0 +1,15 @@
+{
+  "env": {
+    "production": {
+      "presets": ["env", "react", "stage-0"],
+      "plugins": [["emotion", { "hoist": true }]]
+    },
+    "development": {
+      "presets": ["env", "react", "stage-0"],
+      "plugins": [
+        ["emotion", { "sourceMap": true, "autoLabel": true }],
+        "react-hot-loader/babel"
+      ]
+    }
+  }
+}
