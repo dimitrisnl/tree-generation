@@ -10,22 +10,20 @@ Provided with a string with various indentations, generate a folder-like structu
 
 ### Test Input
 
-```js
-const test =
-  '\
-    page 1\n\
-      page 1.1\n\
-      page 1.2\n\
-        page 1.2.1\n\
-    page 2\n\
-    page 3\n\
-      page 3.1\n\
-      page 3.2\n\
-    page 4\n\
-      page 4.1\n\
-        page 4.1.1\n\
-          page 4.1.1.1\n\
-    page 5\
+```
+page 1
+  page 1.1
+  page 1.2
+    page 1.2.1
+page 2
+page 3
+  page 3.1
+  page 3.2
+page 4
+  page 4.1
+    page 4.1.1
+      page 4.1.1.1
+page 5
     ';
 ```
 
