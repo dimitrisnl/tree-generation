@@ -41,3 +41,7 @@ yarn dev # or npm run dev
 # Production ready bundle
 yarn build # or npm run build
 ```
+
+### Other
+
+The textarea _can_ use Tabs for indentation. Notice that it has a minor issue with the caret placement, if not at the end of the string.

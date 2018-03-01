@@ -4,10 +4,23 @@ import styled from 'react-emotion';
 import colors from 'utils/colors';
 
 export class Textarea extends Component {
+  handleKeyDown = e => {
+    // allow for Tab to indent properly
+    if (e.keyCode === 9) {
+      e.preventDefault();
+      this.props.onChange(e);
+    }
+  };
+
   render() {
     const { value, onChange, placeholder } = this.props;
     return (
-      <Wrapper value={value} onChange={onChange} placeholder={placeholder} />
+      <Wrapper
+        value={value}
+        onChange={onChange}
+        placeholder={placeholder}
+        onKeyDown={this.handleKeyDown}
+      />
     );
   }
 }

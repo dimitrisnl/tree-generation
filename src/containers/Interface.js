@@ -13,7 +13,13 @@ export class Interface extends Component {
   state = { text: '', tree: {} };
 
   updateTextArea = e => {
-    this.setState({ text: e.target.value });
+    if (e.keyCode === 9) {
+      const { selectionStart: caret, value } = e.target;
+      const textWithTab = value.slice(0, caret) + '  ' + value.slice(caret);
+      this.setState({ text: textWithTab });
+    } else {
+      this.setState({ text: e.target.value });
+    }
   };
 
   generateTree = () => {

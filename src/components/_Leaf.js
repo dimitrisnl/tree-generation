@@ -59,7 +59,7 @@ const Switch = styled.div`
 `;
 
 const Children = styled.div`
-  max-height: ${props => (props.isOpen ? '400px' : '0')};
+  max-height: ${props => (props.isOpen ? '800px' : '0')};
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 `;
