@@ -24,7 +24,6 @@ page 4
     page 4.1.1
       page 4.1.1.1
 page 5
-    ';
 ```
 
 ### Dependencies
