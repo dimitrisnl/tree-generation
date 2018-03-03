@@ -4,7 +4,6 @@ import breakpoints from './breakpoints';
 export default `
   * {
     box-sizing: border-box;
-    ::webkit-scrollbar:  none;
   }
   body{
     margin: 0;
@@ -35,4 +34,7 @@ export default `
     box-shadow: none;
     outline: 0;
   }
+  ::-webkit-scrollbar {
+    display: none;
+  } 
 `;
