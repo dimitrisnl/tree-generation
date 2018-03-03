@@ -25,6 +25,6 @@ page 4\n\
 page 5\
 ';
 
-const largerFallbackText = `${fallbackText}\n`.repeat(100);
+const largerFallbackText = `${fallbackText}\n`.repeat(10);
 
 export { fallbackText, largerFallbackText };

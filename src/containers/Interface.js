@@ -73,7 +73,7 @@ export class Interface extends Component {
             Use default values
           </Button>
           <Button onClick={this.populateWithHugeText}>
-            Default values x100
+            Default values x10
           </Button>
         </Controls>
       </Wrapper>
