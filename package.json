@@ -32,7 +32,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "chalk": "^2.3.1",
-    "clean-webpack-plugin": "^0.1.18",
+    "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^0.28.10",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
