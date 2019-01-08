@@ -1,5 +1,7 @@
 # Tree Generation from Markup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dimitrisnl/tree-generation.svg)](https://greenkeeper.io/)
+
 ### Demo
 
 [https://optimistic-euler-fa7555.netlify.com/](https://optimistic-euler-fa7555.netlify.com/)
